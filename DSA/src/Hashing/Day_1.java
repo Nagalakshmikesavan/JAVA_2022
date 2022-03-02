@@ -6,8 +6,8 @@ public class Day_1 {
 	
 	public static void main(String args[])
 	{
-		String allowed = "ab";
-		String[] words = {"ad","bd","aaab","baa","badab"};
+		String allowed = "abc";
+		String[] words = {"ad","bd","aaabc","baa","badab"};
 		int res = countConsistentStrings(allowed,words);
 		System.out.println(res);
 		
