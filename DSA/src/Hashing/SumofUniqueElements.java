@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class SumofUniqueElements {
 	public static void main(String args[])
 	{
-		int nums[] = {1,2,3,3};
+		int nums[] = {3,6,2,3,3};
 		int res = sumOfUnique(nums);
 		System.out.println(res);
 		
